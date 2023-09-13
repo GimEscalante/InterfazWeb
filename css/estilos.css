@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Inter&family=Roboto:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin-top: 74.71px;
+    margin-left: 117.7px;
+    border: 1px;
+    background-color: #f2f2f2;
+    
+}
+
+/*BODY*/
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+nav img{
+    width: 278.66px;
+    height: 72px;
+}
+nav a{
+    font-size: 32px;
+    text-decoration: none;
+    color: #333333;
+    margin-left: 50px; 
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+.introduccion{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.introduccion img{
+    width: 796px;
+    height: 704px;
+    margin-top: 50px;
+    margin-right: 800px;
+    margin-left: 100px;
+}
+.introduccion h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+.introduccion .titulo{
+    font-family: 'Coiny', cursive;
+    font-weight: 400;
+    font-size: 117.70px;
+    line-height: 129.48px;
+    
+}
+.introduccion p{
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+
+
+.subrrayado{
+    background-color: #FCEE21;
+    height: 34px;
+    font-size: 26.66px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.texto{
+    margin-top: 150px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 100px;
+    
+    
+    
+}
+.info p{
+    font-size: 28.52px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    
+    
+    
+    
+}
+.info h3{
+    font-size: 35.22px;
+    font-weight: 900;
+    height: 46.05px;
+}
+
+
+
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+.services h2{
+    font-size: 54.48px;
+}
+.services ol{
+    font-size: 32px;
+}
+.services li{
+    margin: 40px;
+}
+.services img{
+    width: 790.66px;
+    height: 788.09px;
+    margin: 50px;
+    margin-left: 20px;
+}
+.services section{
+    margin-top: 50px;
+    margin-right:100px; 
+    
+    
+
+}
+.services p{
+    font-size: 40px;
+}
+
+label{display: block;}
+
+form{
+    margin-left: 100px;
+}
+.forms{
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 700px;
+    margin-left: 10px;
+}
+.forms h2{
+    margin: 20px;
+    
+    padding-left: 10px;
+    font-size: 67.44px;
+    color: white;
+    background-color: black;
+    width: 607.50px;
+    height: 80px;
+}
+.forms h3{
+    font-size: 44.95px;
+    height: 61.50px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.forms label{
+    
+    font-size: 26.66px;
+    font-weight: 700;
+    
+    
+}
+.forms input{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 618.14px;
+    height: 69.6px;
+}
+.forms .mensaje{
+    height: 222.90px;
+    width: 618.14px;
+}
+.rojo{
+    color: red;
+}
+
+
+.botones{
+    display: flex;
+}
+.botones input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 33.12px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+
+}
+.botones .enviar{
+    width: 325.79px;
+    height: 66px;
+    margin-right: 100px;
+}
+.botones .borrar{
+    width: 170.25px;
+    height: 66px;
+}
+.botones input:hover{
+    text-decoration: underline;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 900px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+.redes h4{
+    font-size: 34.45px;
+    color: #808080;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.redes a{
+    width: 136px;
+    height: 136px;
+    margin-left: 150px;
+
+}
+
+
+
+footer {
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    margin-left: -200px;
+    background-color: #FCEE21;
+}
+footer img{
+    margin-left: 200px;
+}
+footer a{
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 100px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
